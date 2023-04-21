@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7f3d52-7ea4-4d23-9c1e-9f45ad33134d" name="Changes" comment="feat: fixed dependencies">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/adesso/leagueapi/testcommons/util/JsonObjectToStringMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/adesso/leagueapi/testcommons/util/JsonStringToObjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/adesso/leagueapi/testcommons/util/TestFileUtils.java" afterDir="false" />
+    <list default="true" id="6c7f3d52-7ea4-4d23-9c1e-9f45ad33134d" name="Changes" comment="feat: added json mappers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681997508850</updated>
       <workItem from="1681997510209" duration="1489000" />
-      <workItem from="1682063202510" duration="2873000" />
+      <workItem from="1682063202510" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="feat: project setup">
       <created>1681997828054</created>
@@ -86,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682063547421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: added json mappers">
+      <created>1682066155270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682066155270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: project setup" />
     <MESSAGE value="feat: fixed dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fixed dependencies" />
+    <MESSAGE value="feat: added json mappers" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added json mappers" />
   </component>
 </project>
