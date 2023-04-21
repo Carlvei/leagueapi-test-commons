@@ -6,7 +6,7 @@
 
     <groupId>at.adesso.leagueapi</groupId>
     <artifactId>test-commons</artifactId>
-    <version>0.0.3</version>
+    <version>0.1.0</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -17,6 +17,7 @@
         <json-smart.version>2.4.10</json-smart.version>
         <snakeyaml.version>2.0</snakeyaml.version>
         <jackson-databind.version>2.14.2</jackson-databind.version>
+        <commons-io.version>2.11.0</commons-io.version>
     </properties>
     <dependencies>
         <!-- Spring dependencies -->
@@ -44,5 +45,17 @@
             <artifactId>snakeyaml</artifactId>
             <version>${snakeyaml.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-databind.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
     </dependencies>
 </project>
