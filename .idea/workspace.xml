@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7f3d52-7ea4-4d23-9c1e-9f45ad33134d" name="Changes" comment="ci: setup ci that should fail">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test-commons-quality-workflow.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-commons-quality-workflow.yml" afterDir="false" />
+    <list default="true" id="6c7f3d52-7ea4-4d23-9c1e-9f45ad33134d" name="Changes" comment="ci: fix ci">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <workItem from="1682321642766" duration="1292000" />
       <workItem from="1682421183517" duration="1224000" />
       <workItem from="1682429672248" duration="719000" />
-      <workItem from="1682583695125" duration="372000" />
+      <workItem from="1682583695125" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="feat: project setup">
       <created>1681997828054</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682583970344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ci: fix ci">
+      <created>1682584089303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682584089303</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="feat: added json mappers" />
     <MESSAGE value="test: added mockito" />
     <MESSAGE value="ci: setup ci that should fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: setup ci that should fail" />
+    <MESSAGE value="ci: fix ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: fix ci" />
   </component>
 </project>
