@@ -56,7 +56,12 @@
             <artifactId>mockito-core</artifactId>
             <version>${mockito-core.version}</version>
         </dependency>
-
-
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Carlvei/leagueapi-test-commons</url>
+        </repository>
+    </distributionManagement>
 </project>
