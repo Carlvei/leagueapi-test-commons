@@ -1,4 +1,4 @@
-name: leagueapi-test-commons-release-workflow
+name: leagueapi-testcommons-release-workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: leagueapi-test-commons-release
+    name: leagueapi-testcommons-release
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: ${{ steps.actions_project_version_check.outputs.version }}
-          release_name: leagueapi-test-commons-release
+          release_name: leagueapi-testcommons-release
           draft: false
           prerelease: false
 
