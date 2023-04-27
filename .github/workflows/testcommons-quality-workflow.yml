@@ -1,4 +1,4 @@
-name: leagueapi-test-commons-quality-workflow
+name: leagueapi-testcommons-quality-workflow
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: test-commons-quality-check
+    name: testcommons-quality-check
     runs-on: ubuntu-latest
     permissions:
       packages: read
