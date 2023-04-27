@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: commons-quality-check
+    name: test-commons-quality-check
     runs-on: ubuntu-latest
     permissions:
       packages: read
